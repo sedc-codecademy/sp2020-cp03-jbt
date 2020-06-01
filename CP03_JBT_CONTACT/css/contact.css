@@ -46,9 +46,9 @@ body {
   .navbar-brand img {
     position: absolute;
     /* height: 4rem; */
-    width: 5rem;
+    width: 6.5rem;
     left: 100px;
-    top: 2px;
+    top: -7px;
   }
   .jsp{
     position: absolute;
