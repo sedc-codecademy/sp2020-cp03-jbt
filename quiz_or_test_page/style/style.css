@@ -213,7 +213,11 @@ a {
 }
 
 #learn {
-    padding: 45px 0px;
+    padding: 15px 0px;
+}
+
+#learnImg {
+    margin: 10px;
 }
 
 #test-img {
