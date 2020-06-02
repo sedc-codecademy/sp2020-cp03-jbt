@@ -54,6 +54,7 @@ body {
     position: absolute;
     left: 230px;
     top: 20px;
+    font-size: 20px;
   }
   .navbar-nav li {
     /* color: #717575; */
@@ -169,6 +170,7 @@ body {
     right: 100px;
     width: 50px;
     bottom: -3px;
+    outline: none;
   }
   #aside{
     position: absolute;
@@ -203,8 +205,8 @@ body {
     background: #BC3A80;
     box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
     border-radius: 5px;
-    
-    display: none; 
+    visibility: hidden;
+    /* display: none;  */
   }
   .en{
     position: absolute;
@@ -235,7 +237,8 @@ body {
     box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
     border-radius: 5px;
     cursor: pointer;
-    display: none;
+    visibility: hidden;
+    /* display: none; */
   }
   .mk{
     position: absolute;
@@ -265,7 +268,8 @@ body {
   box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
   border-radius: 5px;
   cursor: pointer;
-  display: none; 
+  visibility: hidden;
+  /* display: none;  */
 }
 .alb{
   position: absolute;
@@ -294,13 +298,33 @@ body {
   background: #BC3A80;
   box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
   border-radius: 5px;
+  outline: none;
+  visibility: hidden;
   
-  display: none; 
+  /* display: none;  */
 }
 #audio{
   position: absolute;
   width: 40px;
   left: 10px; 
   top: -20px;
+  outline: none;
+  cursor: pointer;
+}
+#gear2 {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  right: 0px;
+  top: 268px;
+  background: #1762A7;
+  box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
+  border-radius: 5px;
+  visibility: hidden;
+}
+.gear_pic{
+  position: absolute;
+  width: 50px;
+  left: 14px;
   cursor: pointer;
 }

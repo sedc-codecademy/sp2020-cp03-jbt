@@ -201,6 +201,13 @@
     box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
     border-radius: 5px;
   }
+  #aside{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 50px;
+    height: 150px;
+  }
   .gear_pic{
     position: absolute;
     width: 50px;
