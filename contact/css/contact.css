@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+*{
+  box-sizing: border-box;
+} 
+body {
+    left: 1px;
+    overflow-y: hidden;
+    font-family: "Poppins", sans-serif;
+    background-color: #2F303A;
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+  }
+  #backimg{
+    position: absolute;
+    width: 100%;
+    height: 96%;
+    bottom: 9px;
+  }
+ .responsive {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  .offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+  } 
+  
+  .navbar {
+    position: relative;
+    background-color: rgba(23,98,167,0.15);
+    height: 60px;
+    
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    margin-top: 15px;
+    
+    padding-bottom: 60px;
+    padding-right: 150px;
+  }
+  .navbar-brand img {
+    position: absolute;
+    /* height: 4rem; */
+    width: 6.5rem;
+    left: 100px;
+    top: -7px;
+  }
+  .jsp{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    font-size: 20px;
+  }
+  .navbar-nav li {
+    /* color: #717575; */
+    
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    right: 100px;
+    padding-right: 1.7rem;
+    
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: inherit;
+    padding-top: 2.8rem;
+  }
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+  }
+  
+  .btn-lg:hover {
+    background-color: #2180d8;
+  }
+  
+  .btn-lg:focus {
+    background-color: #2796ff;
+  }
+  #content{
+    padding: 100px;
+  }
+  #content p{
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    line-height: 36px;
+    
+  }
+  #content a{
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+  .maturaMail{
+    left: 180px;
+    top: 331px;
+  }
+  .martaMail{
+    left: 420px;
+    bottom: 234px;
+  }
+  /* Button */
+  .btn-lg {
+    width: 150px;
+    color: white;
+    background-color: #1762A7;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    bottom: 140px;
+    width: 170px;
+  }
+  #footer{
+    position: absolute;
+    background-color: rgba(23,98,167,0.15);
+    width: 100%;   
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 15px;    
+    padding: 35px;   
+    bottom: 20px;
+  }
+  
+  .telephone{
+    position: absolute;
+    width: 30px;
+    left: 100px;
+  }
+  .tel{
+    position: absolute;
+    left: 140px;
+  }
+  .mail{
+    position: absolute;
+    width: 30px;
+    left: 330px;
+    bottom: 10px;
+  }
+  .eMailJsp{
+    position: absolute;
+    color: #ffffff;
+    font-size: 16px;
+    left: 370px;
+  }
+  .gimnazijaText{
+    position: absolute;
+    left: 680px;
+  }
+  .facebook{
+    position: absolute;
+    right: 100px;
+    width: 50px;
+    bottom: -3px;
+    outline: none;
+  }
+  #aside{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 1px;
+    top: 70px;
+  }
+  #gear {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    right: 0px;
+    top: 198px;
+    background: #1762A7;
+    box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+  }
+  .gear_pic{
+    position: absolute;
+    width: 50px;
+    left: 14px;
+    cursor: pointer;
+  }
+  .english{
+    cursor: pointer;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    right: 140px;
+    top: 260px;
+    background: #BC3A80;
+    box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    visibility: hidden;
+    /* display: none;  */
+  }
+  .en{
+    position: absolute;
+     width: 32px;
+    height: 34px; 
+    left: 15px; 
+    top: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 154.2%;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255,0.4);
+    text-decoration-style: solid;
+    color: #fff;
+  }
+
+  .macedonian{   
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    right: 70px;
+    top: 260px;
+    background: #BC3A80;
+    box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    cursor: pointer;
+    visibility: hidden;
+    /* display: none; */
+  }
+  .mk{
+    position: absolute;
+    width: 32px;
+    height: 34px; 
+    left: 15px; 
+    top: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 154.2%;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255,0.4);
+    text-decoration-style: solid;
+    color: #fff;
+  }
+.al{   
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  right: 0px;
+  top: 260px;
+  background: #BC3A80;
+  box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
+  border-radius: 5px;
+  cursor: pointer;
+  visibility: hidden;
+  /* display: none;  */
+}
+.alb{
+  position: absolute;
+   width: 32px;
+  height: 34px; 
+  left: 15px; 
+  top: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 154.2%;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(255, 255, 255,0.4);
+  text-decoration-style: solid;
+  color: #fff;
+}
+.voice{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  right: 0px;
+  top: 310px;
+  background: #BC3A80;
+  box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
+  border-radius: 5px;
+  outline: none;
+  visibility: hidden;
+  
+  /* display: none;  */
+}
+#audio{
+  position: absolute;
+  width: 40px;
+  left: 10px; 
+  top: -20px;
+  outline: none;
+  cursor: pointer;
+}
+#gear2 {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  right: 0px;
+  top: 268px;
+  background: #1762A7;
+  box-shadow: 0px 0px 9.8px rgba(0, 0, 0, 0.1); 
+  border-radius: 5px;
+  visibility: hidden;
+}
+.gear_pic{
+  position: absolute;
+  width: 50px;
+  left: 14px;
+  cursor: pointer;
+}

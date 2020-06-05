@@ -1,0 +1,205 @@
+body {
+    background-image: url('../img/backToSchool.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #2F303A;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 154.2%;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* style for navbar */
+
+.navbar {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+.navbar-brand img {
+    position: absolute;
+    /* height: 4rem; */
+    width: 6rem;
+    top: -10px;
+}
+
+.navbar-nav li {
+    padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: inherit;
+    padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #717575;
+}
+
+
+/* levels */
+
+#title {
+    margin-top: 244px;
+}
+
+.divs {
+    display: block;
+    text-align: center;
+}
+
+
+/* settings */
+
+#settings {
+    height: 50px;
+    width: 80px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #1762A7;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+}
+
+#img-settings {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+#settings2 {
+    height: 50px;
+    width: 120px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #1762A7;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    cursor: pointer;
+}
+
+#img-settings2 {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+#languages {
+    display: flex;
+    position: absolute;
+    top: 255px;
+    right: 0px;
+}
+
+.lng {
+    height: 50px;
+    width: 80px;
+    background-color: #BC3A80;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+    letter-spacing: 0.09em;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#img-sound {
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #1762A7;
+    position: absolute;
+    top: 310px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+h1,
+p {
+    letter-spacing: 0.09em;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/* levels */
+
+#bottomText {
+    margin: 140px 100px 50px;
+}
+
+.text {
+    font-size: 1.5em;
+    letter-spacing: 0.09em;
+}
+
+#main {
+    margin-left: auto;
+}
+
+#levels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-level {
+    width: 420px;
+    height: 420px;
+    background-color: #202027;
+    border-radius: 160px;
+    text-align: center;
+    margin: 45px;
+    flex-wrap: wrap;
+    transition: all .2s ease-in-out;
+}
+
+.btn-level:hover {
+    transform: scale(1.1, 1.1);
+    transition: ease-in-out;
+    background-color: #1762A7;
+}
+
+#basic {
+    padding: 45px 0px;
+}
+
+#intermediate-img {
+    margin: 10px;
+}
+
+#intermediate {
+    padding: 55px 0px;
+}
+
+#advanced {
+    padding: 25px 0px;
+}
