@@ -1,6 +1,5 @@
 body {
-    background-image: url('img/newGame.png');
-    background-color: blueviolet;
+    background-image: url('../img/newGame.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -16,36 +15,11 @@ body {
     padding: 0;
 }
 
-
-/* style for navbar */
-
-.navbar {
-    margin-top: 20px;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 0.9rem;
-    letter-spacing: 0.1rem;
-}
-
-.navbar-brand img {
-    position: absolute;
-    /* height: 4rem; */
-    width: 6rem;
-    top: -10px;
-}
-
-.navbar-nav li {
-    padding-right: 0.7rem;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: inherit;
-    padding-top: 0.8rem;
-}
-
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #717575;
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
@@ -83,81 +57,6 @@ body {
 
 #new-game {
     margin-top: 250px;
-}
-
-
-/* setting buttons */
-
-#settings {
-    height: 50px;
-    width: 80px;
-    border-radius: 5px 0px 0px 5px;
-    background-color: #1762A7;
-    position: absolute;
-    top: 200px;
-    right: 0px;
-    cursor: pointer;
-}
-
-#img-settings {
-    position: absolute;
-    top: 5px;
-    left: 20px;
-}
-
-#settings2 {
-    height: 50px;
-    width: 120px;
-    border-radius: 5px 0px 0px 5px;
-    background-color: #1762A7;
-    position: absolute;
-    top: 200px;
-    right: 0px;
-    cursor: pointer;
-    display: none;
-}
-
-#img-settings2 {
-    position: absolute;
-    top: 5px;
-    left: 20px;
-}
-
-#languages {
-    display: flex;
-    position: absolute;
-    top: 255px;
-    right: 0px;
-}
-
-.lng {
-    height: 50px;
-    width: 80px;
-    background-color: #BC3A80;
-    border-radius: 5px;
-    margin: 5px;
-    text-align: center;
-    font-size: 22px;
-    text-decoration: underline;
-    letter-spacing: 0.09em;
-    padding: 10px;
-    font-weight: 600;
-    cursor: pointer;
-    display: none;
-}
-
-#img-sound {
-    height: 50px;
-    width: 80px;
-    border-radius: 5px;
-    background-color: #BC3A80;
-    position: absolute;
-    top: 310px;
-    right: 0px;
-    margin-top: 10px;
-    margin-right: 5px;
-    cursor: pointer;
-    display: none;
 }
 
 

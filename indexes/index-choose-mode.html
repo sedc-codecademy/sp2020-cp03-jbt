@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../css/style-nav-settings.css">
+    <link rel="stylesheet" href="../css/style-choose-mode.css">
+    <title>Document</title>
 </head>
 
 <body>
     <!-- Navigation Section -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top divs">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="./img/jbt_logo_padding.png" /></a>
+            <a class="navbar-brand" href="index.html"><img src="../img/jbt_logo_padding.png" /></a>
+            <p class="jsp">High School Josip Broz Tito</p>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span>
-        </button>
+    </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -35,46 +37,47 @@
     <!-- End Navigation Section -->
 
     <div class="divs" id="title">
-        <h1>PICK A DIFFICULTY</h1>
+        <h1>QUIZ OR TEST</h1>
     </div>
 
     <!-- setting buttons -->
     <div id="settings">
-        <img src="./img/settings.png" alt="Settings image" id="img-settings">
+        <img src="../img/settings.svg" alt="Settings image" id="img-settings">
     </div>
     <div id="settings2">
-        <img src="./img/settings.png" alt="Settings image" id="img-settings2">
+        <img src="../img/settings.svg" alt="Settings image" id="img-settings2">
     </div>
     <div id="languages">
         <div class="lng" id="mk">MK</div>
         <div class="lng" id="en">EN</div>
         <div class="lng" id="al">AL</div>
     </div>
-    <div>
-        <img src="./img/sound.png" alt="Sound image" id="img-sound">
+    <div id="sound">
+        <img src="../img/sound.svg" alt="Sound image" id="img-sound">
+    </div>
+    <div id="mute">
+        <img src="../img/mute.svg" alt="Mute image" id="img-mute">
     </div>
 
-    <!-- level buttons -->
+    <!-- learn-test buttons -->
     <div class="divs" id="main">
-        <div id="levels">
-            <div class="btn-level text" id="basic">
-                <a href="-----------------"><img src="./img/basic.png" alt="basic img"></a>
-                <p>BASIC</p>
+        <div id="learn-test">
+            <div class="btn-learn-test text" id="learn">
+                <a href="index-choose-page.html"><img src="../img/learn.png" alt="learn img" id="learnImg"></a>
+                <p>LEARN</p>
             </div>
-            <div class="btn-level text" id="intermediate">
-                <a href="-----------------"><img src="./img/intermadiate.png" alt="intermadiate img" id="intermediate-img">
+            <div class="btn-learn-test text" id="test">
+                <a href="index-choose-page.html"><img src="../img/test.png" alt="test image" id="test-img">
                 </a>
-                <p>INTERMEDIATE</p>
-            </div>
-            <div class="btn-level text" id="advanced">
-                <a href="-------------------"><img src="./img/advanced.png" alt="advanced img"></a>
-                <p>ADVANCED</p>
+                <p>TEST</p>
             </div>
         </div>
     </div>
     <div class="divs">
         <p id="bottomText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, dolorem minus nostrum nihil, dolorum cumque necessitatibus ullam similique hic rem corrupti inventore sed magni placeat illum maxime voluptate, impedit non!</p>
     </div>
+
+    <script src="../script/script.js"></script>
 </body>
 
 </html>
