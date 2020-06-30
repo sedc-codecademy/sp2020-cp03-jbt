@@ -189,7 +189,7 @@ a:focus {
 .navbar {
     display: flex;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(23, 98, 167, 0.15);
 }
 
 .navbar-right {
