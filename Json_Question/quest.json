@@ -1,0 +1,121 @@
+{
+    "questions" : [
+        {
+        "id": 0,
+        "description": "Македонски акцент е:",
+        "hint": "",
+        "difficulty": 0,
+        "type": 1,
+        "answers": [
+            {
+                "id": 0,
+                "text": "статичен и определен",
+                "rightAnswer": true
+            },
+            {
+                "id": 1,
+                "text": "динамичен и определен",
+                "rightAnswer": false
+            },
+            {
+                "id": 2,
+                "text": "неопределен",
+                "rightAnswer": true
+            },
+            {
+                "id": 3,
+                "text": "статичен",
+                "rightAnswer": false
+            }
+        ]
+        },
+        {
+            "id": 1,
+            "description": "Акцентот во македонскиот јазик кај тросложните и повеќесложните зборови паѓа на:",
+            "hint": "",
+            "difficulty": 0,
+            "type": 1,
+            "answers": [
+                {
+                    "id": 0,
+                    "text": "на последниот слог",
+                    "rightAnswer": true
+                },
+                {
+                    "id": 1,
+                    "text": "на првиот слог",
+                    "rightAnswer": false
+                },
+                {
+                    "id": 2,
+                    "text": "на третиот слог од крајот на зборот",
+                    "rightAnswer": true
+                },
+                {
+                    "id": 3,
+                    "text": "на првата самогласка",
+                    "rightAnswer": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "description": "Науката за јазикот се вика:",
+            "hint": "",
+            "difficulty": 0,
+            "type": 1,
+            "answers": [
+                {
+                    "id": 0,
+                    "text": "лингвистика",
+                    "rightAnswer": true
+                },
+                {
+                    "id": 1,
+                    "text": "граматика",
+                    "rightAnswer": false
+                },
+                {
+                    "id": 2,
+                    "text": "фонетика",
+                    "rightAnswer": true
+                },
+                {
+                    "id": 3,
+                    "text": "синтакса",
+                    "rightAnswer": false
+                }
+            ]
+        },
+        {
+            
+            "id": 3,
+            "description": "Национален е јазикот :",
+            "hint": "",
+            "difficulty": 0,
+            "type": 1,
+            "answers": [
+                {
+                    "id": 0,
+                    "text": "кој е во официјална употреба на државата",
+                    "rightAnswer": true
+                },
+                {
+                    "id": 1,
+                    "text": "јазикот што има пропишана норма за употреба",
+                    "rightAnswer": false
+                },
+                {
+                    "id": 2,
+                    "text": "сите форми на јазикот",
+                    "rightAnswer": true
+                },
+                {
+                    "id": 3,
+                    "text": "јазикот што го говори група луѓе",
+                    "rightAnswer": false
+                }
+            ]
+        }
+    ]
+}
