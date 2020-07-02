@@ -1,0 +1,150 @@
+body {
+    background-image: url('../img/newGame.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 154.2%;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    background-color: #2F303A;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* style for buttons */
+
+#main {
+    display: flex;
+}
+
+#btns {
+    margin-top: auto;
+    margin-left: 45%;
+}
+
+.btn-game {
+    background-color: #202027;
+    height: 120px;
+    width: 600px;
+    border-radius: 30px;
+    margin: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btns :hover {
+    background-color: #1762A7;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 1.5em;
+    letter-spacing: 0.09em;
+}
+
+#new-game {
+    margin-top: 250px;
+}
+
+
+/* link */
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (max-width: 900px) {
+    #btns {
+        margin-top: auto;
+        margin: auto;
+    }
+    .btn-game {
+        background-color: #202027;
+        height: 100px;
+        width: 350px;
+    }
+}
+
+
+/* style for buttons playing first time */
+
+
+/* 
+#main {
+    display: flex;
+}
+
+#btns {
+    margin-top: auto;
+    margin-left: 50%;
+}
+
+.btn-game {
+    background-color: #202027;
+    height: 120px;
+    width: 600px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+    display: flex;
+}
+
+#btns :hover {
+    background-color: #1762A7;
+}
+
+.text {
+    font-size: 1.5em;
+    letter-spacing: 0.09em;
+}
+
+#new-game {
+    margin-top: 250px;
+}
+
+#continue {
+    background-color: #2E2C3B;
+}
+
+.continue {
+    color: #8A929E;
+}
+
+#settings {
+    height: 50.22px;
+    width: 80px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #1762A7;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+}
+
+#img-settings {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+} 
+@media only screen and (max-width: 900px) {
+    #btns {
+        margin-top: auto;
+        margin: auto;
+    }
+}*/
