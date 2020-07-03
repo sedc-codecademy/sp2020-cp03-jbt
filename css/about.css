@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* *{
+  box-sizing: border-box;
+} */
+
+
+/* body {
+  left: 1px;
+    overflow-y: hidden;
+    font-family: "Poppins", sans-serif;
+    background-color: #2F303A;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  } */
+
+body {
+    background-image: url('../img/Frame2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center -1px; */
+    /* background-size: 1550px 750px; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 154.2%;
+    color: #ffffff;
+    box-sizing: border-box;
+    background-color: #2F303A;
+    margin: 0;
+    padding: 0;
+    /* left: 1px; */
+    /* overflow-y: hidden;
+      font-family: "Poppins", sans-serif;
+      background-color: #2F303A;
+      color: #fff;
+      margin: 0;
+      padding: 0; */
+}
+
+#about {
+    font-weight: bold;
+}
+
+
+/* background-image: url('../img/backToSchool.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #2F303A;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 154.2%;
+color: #FFFFFF;
+box-sizing: border-box;
+margin: 0;
+padding: 0; */
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    /* color: white; */
+    /* text-transform: none; */
+    text-align: center;
+    /* top: 140px; */
+    /* font-size: 0.9rem; */
+    letter-spacing: 0.09em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+
+/* Button */
+
+.btn-lg {
+    width: 150px;
+    color: white;
+    background-color: #1762A7;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.btn-lg:hover {
+    background-color: #2180d8;
+}
+
+.btn-lg:focus {
+    background-color: #2796ff;
+}
+
+
+/* .home-page-circle-1 {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: rgb(188, 58, 128, .1);
+    bottom: 5vw;
+    left: 5vw;
+    z-index: -1;
+}
+
+.home-page-circle-2 {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: rgb(52, 87, 178, .1);
+    top: 15vh;
+    left: 30vw;
+    z-index: -1;
+}
+
+.home-page-circle-3 {
+    position: absolute;
+    overflow: hidden;
+    width: 45vw;
+    height: 45vw;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.home-page-circle-3::before {
+    content: '';
+    transform: translate(40%, 40%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgba(64, 112, 233, 0.1);
+} */
+
+#footer {
+    position: absolute;
+    background-color: rgba(23, 98, 167, 0.15);
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 15px;
+    padding: 35px;
+    bottom: 20px;
+}
+
+.telephone {
+    position: absolute;
+    width: 30px;
+    left: 100px;
+}
+
+.tel {
+    position: absolute;
+    left: 140px;
+}
+
+.mail {
+    position: absolute;
+    width: 30px;
+    left: 330px;
+    bottom: 10px;
+}
+
+.eMailJsp {
+    position: absolute;
+    color: #ffffff;
+    font-size: 16px;
+    left: 370px;
+}
+
+.gimnazijaText {
+    position: absolute;
+    left: 680px;
+}
+
+.facebook {
+    position: absolute;
+    right: 100px;
+    width: 50px;
+    bottom: -3px;
+}
+
+#aside {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 1px;
+    top: 70px;
+}
