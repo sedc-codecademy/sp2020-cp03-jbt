@@ -4,7 +4,7 @@
     margin-top: 20px;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     letter-spacing: 0.1rem;
 }
 
@@ -91,6 +91,10 @@
     letter-spacing: 0.09em;
     padding: 10px;
     font-weight: 600;
+}
+
+.lng:hover {
+    color: #c4dee4;
     cursor: pointer;
 }
 
